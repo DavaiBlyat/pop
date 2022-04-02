@@ -1,33 +1,40 @@
 {
-    "providers": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-frontend-dev-130327-authRole",
-            "UnauthRoleArn": "arn:aws:iam::285853843253:role/amplify-frontend-dev-130327-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::285853843253:role/amplify-frontend-dev-130327-authRole",
-            "Region": "us-west-2",
-            "DeploymentBucketName": "amplify-frontend-dev-130327-deployment",
-            "UnauthRoleName": "amplify-frontend-dev-130327-unauthRole",
-            "StackName": "amplify-frontend-dev-130327",
-            "StackId": "arn:aws:cloudformation:us-west-2:285853843253:stack/amplify-frontend-dev-130327/cd3ef850-b1f6-11ec-ae7d-0aef51c43f5b",
-            "AmplifyAppId": "d6mwilw381o4x"
-        }
-    },
-    "api": {
-        "appsync-6be0aa3": {
-            "service": "AppSync",
-            "output": {
-                "authConfig": {
-                    "defaultAuthentication": {
-                        "authenticationType": "AWS_IAM"
-                    },
-                    "additionalAuthenticationProviders": null
-                },
-                "GraphQLAPIIdOutput": "5ar7bezwnrgh3ffptmy5wyw4n4",
-                "GraphQLAPIEndpointOutput": "https://yfnn2uetcrhw5drlcu77e37fti.appsync-api.us-west-2.amazonaws.com/graphql",
-                "name": "appsync-6be0aa3",
-                "region": "us-west-2"
-            },
-            "lastPushTimeStamp": "2022-04-01T20:04:42.337Z"
-        }
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frontend-dev-130327-authRole",
+      "UnauthRoleArn": "arn:aws:iam::285853843253:role/amplify-frontend-dev-130327-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::285853843253:role/amplify-frontend-dev-130327-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-frontend-dev-130327-deployment",
+      "UnauthRoleName": "amplify-frontend-dev-130327-unauthRole",
+      "StackName": "amplify-frontend-dev-130327",
+      "StackId": "arn:aws:cloudformation:us-west-2:285853843253:stack/amplify-frontend-dev-130327/cd3ef850-b1f6-11ec-ae7d-0aef51c43f5b",
+      "AmplifyAppId": "d6mwilw381o4x"
     }
+  },
+  "api": {
+    "appsync-6be0aa3": {
+      "service": "AppSync",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "AWS_IAM"
+          },
+          "additionalAuthenticationProviders": null
+        },
+        "GraphQLAPIIdOutput": "5ar7bezwnrgh3ffptmy5wyw4n4",
+        "GraphQLAPIEndpointOutput": "https://yfnn2uetcrhw5drlcu77e37fti.appsync-api.us-west-2.amazonaws.com/graphql",
+        "name": "appsync-6be0aa3",
+        "region": "us-west-2"
+      },
+      "lastPushTimeStamp": "2022-04-01T20:04:42.337Z"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2022-04-02T03:31:09.807Z"
+    }
+  }
 }
